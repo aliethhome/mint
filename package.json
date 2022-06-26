@@ -1,0 +1,36 @@
+{
+  "name": "mint",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.6",
+    "etherscan-api": "^10.0.9",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.14",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.2.25",
+    "vue-grid-layout": "^2.3.12",
+    "vue-router": "^4.0.16",
+    "web3": "^1.7.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.10.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue-eslint-parser": "^8.3.0",
+    "vue-tsc": "^0.34.7"
+  }
+}
